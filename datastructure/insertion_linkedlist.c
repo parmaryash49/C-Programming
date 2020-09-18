@@ -8,8 +8,7 @@ void Traversal(struct Node *ptr){
     while(ptr!=NULL){
          printf("element:%d \n",ptr->data);
          ptr=ptr->next;
-    }
-   
+    } 
 }
 struct Node * insertAtFirst(struct  Node *head ,int data){
     struct Node *ptr=(struct Node*)malloc (sizeof(struct Node));  
